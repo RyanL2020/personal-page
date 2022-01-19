@@ -1,17 +1,36 @@
 button {
     position: relative;
-    background-color: rgb(51, 43, 43);
-    border: none;
+    background-color: rgb(255, 255, 255);
+    border: rgb(51, 43, 43) solid 1px;;
     border-radius: 5px;
     height: 3rem;
     width: max-content;
-    color: whitesmoke;
+    color: rgb(8, 8, 8);
     font-size: 18px;
     justify-self: center;
   }
   
   button:hover {
-    background-color: whitesmoke;
+    background-color: rgb(250, 250, 250);
     border: rgb(51, 43, 43) solid 1px;
-    color: rgb(51, 43, 43);
+    color: rgb(8, 8, 8);
+  }
+
+  a.button {
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: rgb(51, 43, 43) solid 1px;;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    justify-self: center;
+   
+}
+a.button:hover {
+    background-color: rgb(250, 250, 250);
+    border: rgb(51, 43, 43) solid 1px;
+    color: rgb(8, 8, 8);
   }
