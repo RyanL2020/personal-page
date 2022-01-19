@@ -1,3 +1,5 @@
+body {background-color: rgb(80, 220, 255);}
+
 button {
     position: relative;
     background-color: rgb(255, 255, 255);
@@ -33,4 +35,19 @@ a.button:hover {
     background-color: rgb(250, 250, 250);
     border: rgb(51, 43, 43) solid 1px;
     color: rgb(8, 8, 8);
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
   }
