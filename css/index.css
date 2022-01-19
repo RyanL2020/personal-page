@@ -1,0 +1,17 @@
+button {
+    position: relative;
+    background-color: rgb(51, 43, 43);
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+  }
+  
+  button:hover {
+    background-color: whitesmoke;
+    border: rgb(51, 43, 43) solid 1px;
+    color: rgb(51, 43, 43);
+  }
